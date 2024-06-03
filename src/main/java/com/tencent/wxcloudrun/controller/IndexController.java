@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 /**
  * index控制器
  */
-@Controller
 
+@RestController
 public class IndexController {
 
   /**

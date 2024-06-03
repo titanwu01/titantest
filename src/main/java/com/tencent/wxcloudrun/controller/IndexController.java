@@ -14,7 +14,7 @@ public class IndexController {
    * 主页页面
    * @return API response html
    */
-  @GetMapping
+  @GetMapping(value = "/api/index")
   public String index() {
     return "index-titan-01";
   }
